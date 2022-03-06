@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="horafecha.js">
+</head>
+<body>
+    <section id="date"></section>
+</body>
+<script>
+    var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+    var f=new Date();
+    document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+    </script>
+<script type="text/javascript" src="horafecha.js"></script>
+</html>
